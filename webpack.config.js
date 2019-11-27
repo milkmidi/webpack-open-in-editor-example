@@ -138,6 +138,14 @@ module.exports = (env, argv) => {
           + 'add "editor" field to your Vue project config.\n',
         )));
       },
+      overlay: {
+        warnings: true,
+        errors: true,
+      },
+      contentBase: './src',
+      // publicPath: '/dist/',
+      // stats: 'errors-only',
+      stats: 'minimal',
       port: 3000,
       hot: true,
     },

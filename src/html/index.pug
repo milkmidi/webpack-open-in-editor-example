@@ -5,5 +5,8 @@ head
   title Vue
   meta(name='viewport' content='width=device-width, initial-scale=1')
   link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css')
+  if DEV_MODE
+    script.
+      console.log('development')
   body
     #app

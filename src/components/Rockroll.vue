@@ -1,6 +1,9 @@
 <script>
 export default {
-  name: 'Rockroll🤘',
+  name: 'Rockroll',
+  mounted() {
+    console.log('hi rockroll');
+  },
 };
 </script>
 
